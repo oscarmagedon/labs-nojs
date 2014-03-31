@@ -1,5 +1,5 @@
 <?php
-$menuactions = array(
+$menuActions = array(
     'Generals'        => array(
             array(
                 'title' => 'Main-Page',
@@ -21,8 +21,8 @@ $menuactions = array(
     ,
     'Drop-Down-Menus' => array(
             array(
-                'title' => 'Blue-Gray-Slow',
-                'file'  => 'blueGraySlow'
+                'title' => 'Gray-Navigation',
+                'file'  => 'grayNavigation'
             )
             ,
             array(

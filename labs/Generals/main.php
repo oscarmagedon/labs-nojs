@@ -12,14 +12,6 @@ Lab siga funcionando con las mismas CSS y HTML. Algo asi se desea en Jquery Lab.
         <li>Ayuda para agregar acciones y FAQ de errores comunes</li>
     </ul>
 
-    <code data-type="html">
-        <html>
-            <head>
-                <title>Hello Bitches</title>
-            </head>
-            <body>
-                Example code!
-            </body>
-        </html>
-    </code>
+    <a href="http://dizyne.net/30-beautiful-html5-css3-drop-menus" target="_blank">Good Menus</a>
+
 </p>

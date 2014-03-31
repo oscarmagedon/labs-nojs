@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Our HTML5 - CSS3 Examples: <?= $title ?></title>
+    <link rel="stylesheet" type="text/css" href="rss/html5-reset.css">
     <link rel="stylesheet" type="text/css" href="rss/style.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
         <span id="lab-title">Our HTML5 - CSS3 Examples:</span> <span id="lab-subtitle"><?= $title ?></span>
     </div>
     <div id="lab-menu">
-        <ul><?php showMenu($menuactions) ?></ul>
+        <ul><?php showMenu($menuActions) ?></ul>
     </div>
     <div id="lab-content">
         <?php showContent($lab) ?>

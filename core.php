@@ -35,14 +35,13 @@ function noDash($str)
 //Writes a link to the content
 function doActionLink($file,$title)
 {
-    $titleNoDash = str_replace("-", " ", $title);
     echo "<li><a href='index.php?dir=labs/$file&title=$title'>".noDash($title)."</a></li>";
 }
 
 //Shows the lab on the content part
 function showContent($lab){
-    if( file_exists ($lab) )
+    if( file_exists ($lab) === TRUE)
         include($lab);
     else
-        echo "<div id='bad-request'>Bad Request. $lab is not a valid route</div>";
+        include('labs/Generals/badRequest.php');
 }
