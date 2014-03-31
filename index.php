@@ -1,5 +1,7 @@
 <?php
 
+//Interesting links for standards: http://dev.w3.org/html5/html-author/
+
 require('menu.php');
 
 function phpIzzit($dir){
@@ -24,39 +26,13 @@ $direction = phpIzzit($defdir);
 
 
 ?>
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Ejemplos CSS3 y HTML5: <?= $title ?></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<style>
-    #allwrapper{
-        padding: 5px;
-        background-color: #345;
-    }
-    #header{
-        height: 50px;
-        border: 1px solid black;
-        background-color: #585;
-        font-size: 200%;
-    }
-        #subtitle{
-            font-style: italic;
-            background-color: #521;
-        }
-    #menu{
-        float: left;
-        width: 300px;
-        background-color: #ab3;
-        height: 600px;
-        overflow: scroll;
-    }
-    #content{
-        float left;
-        background-color: #4da;
-        height: 600px;
-        overflow: scroll;
-    }
-</style>
 <body>
 <div id="allwrapper">
     <div id="header">

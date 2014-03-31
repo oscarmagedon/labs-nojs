@@ -1,0 +1,32 @@
+#allwrapper{
+    padding: 5px;
+    background-color: #345;
+    height: 800px;
+    width: 1200px;
+}
+#header{
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px solid black;
+    background-color: #585;
+    font-size: 160%;
+    margin-bottom: 5px;
+}
+#subtitle{
+    font-style: italic;
+    background-color: #45D;
+}
+#menu{
+    width : 200px;
+    height : 640px;
+    float : left;
+    background-color : #ab3;
+    clear : none;
+    margin-right : 5px;
+}
+#content{
+    width : 680px;
+    height : 640px;
+    float : left;
+    background-color: #4da;
+    clear : none;
+}
