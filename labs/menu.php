@@ -19,7 +19,6 @@ $menuactions = array(
             )
     )
     ,
-
     'Drop-Down-Menus' => array(
             array(
                 'title' => 'Blue-Gray-Slow',
@@ -32,7 +31,18 @@ $menuactions = array(
             )
 
     )
-
+    ,
+    'Category'       => array(
+            array(
+                'title' => 'Sub Example',
+                'file'  => 'subExample'
+            )
+            ,
+            array(
+                'title' => 'Sub Example Two',
+                'file'  => 'subExampleTwo'
+            )
+    )
 
 );
 

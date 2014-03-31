@@ -1,32 +1,85 @@
-#allwrapper{
+*{
+    font-family: arial, helvetica, sans-serif;
+}
+#lab-wrapper{
     padding: 5px;
-    background-color: #345;
     height: 800px;
     width: 1200px;
+    border: 1px solid #AAA;
+    border-radius: 5px;
 }
-#header{
+#lab-header{
     padding: 10px 0 10px 10px;
-    border-bottom: 1px solid black;
-    background-color: #585;
+    border-bottom: 1px solid #AAA;
     font-size: 160%;
     margin-bottom: 5px;
+    background-color: #DDD;
+    border-radius: 5px;
 }
-#subtitle{
-    font-style: italic;
-    background-color: #45D;
-}
-#menu{
-    width : 300px;
+    #lab-title{
+        font-weight: bold;
+    }
+    #lab-subtitle{
+        font-style: italic;
+        font-size: 85%;
+    }
+#lab-menu{
+    width : 160px;
     height : 740px;
     float : left;
-    background-color : #ab3;
     clear : none;
     margin-right : 5px;
+    font-size: 95%;
 }
-#content{
-    width : 895px;
-    height : 740px;
+    #lab-menu ul{
+        padding: 0 0 5px 10px;
+        text-decoration: none;
+    }
+
+        #lab-menu ul li {
+            font-weight: bold;
+            color: #333;
+            list-style-type: none;
+            padding-top: 5px;
+        }
+
+        #lab-menu ul li a , #lab-menu ul li a:visited {
+            font-weight: normal;
+            color: #00C;
+            text-decoration: none;
+        }
+
+        #lab-menu ul li a:hover {
+            text-decoration: underline;
+        }
+
+
+#lab-content{
+    width : 1020px;
+    height : 730px;
+    border : 1px solid #AAA;
+    padding : 5px;
     float : left;
-    background-color: #4da;
     clear : none;
+    border-radius: 5px;
 }
+
+/* COLORS PART */
+
+/*
+#lab-wrapper{
+    background-color : #345;
+}
+#lab-header{
+    background-color : #585;
+}
+#lab-labtitle{
+    background-color : #45D;
+}
+#lab-menu{
+    background-color : #ab3;
+}
+#lab-content{
+    background-color : #4da;
+}
+*/

@@ -1,58 +1,21 @@
-<?php
-
-//Interesting links for standards: http://dev.w3.org/html5/html-author/
-
-require('labs/menu.php');
-
-function doActionLink($file,$title){
-    $titleNoDash = str_replace("-", " ", $title);
-    echo "<li><a href='index.php?dir=labs/$file&title=$title'>$titleNoDash</a></li>";
-}
-
-$title = "Main-Example";
-//print_r($_GET);
-
-$lab = "labs/main.php";
-
-if(!empty($_GET['dir'])){
-    $lab    = $_GET['dir'].".php";
-    $title  = $_GET['title'];
-}
-$title = str_replace("-", " ", $title);
-?>
+<?php require("core.php") ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Ejemplos CSS3 y HTML5: <?= $title ?></title>
+    <title>Our HTML5 - CSS3 Examples: <?= $title ?></title>
     <link rel="stylesheet" type="text/css" href="rss/style.css">
 </head>
 <body>
-<div id="allwrapper">
-    <div id="header">
-        Ejemplos HTML5 - CSS3 :
-        <span id="subtitle"><?= $title ?></span>
+<div id="lab-wrapper">
+    <div id="lab-header">
+        <span id="lab-title">Our HTML5 - CSS3 Examples:</span> <span id="lab-subtitle"><?= $title ?></span>
     </div>
-    <div id="menu">
-        <ul>
-        <?php
-        foreach ($menuactions as $title => $links){
-            echo "<li>".$title."<ul>";
-            foreach($links as $menu ){
-                doActionLink($title."/".$menu['file'],$menu['title']);
-            }
-            echo "</ul></li>";
-        }
-        ?>
-        </ul>
+    <div id="lab-menu">
+        <ul><?php showMenu($menuactions) ?></ul>
     </div>
-    <div id="content">
-        <?php
-        if( file_exists ($lab) )
-            require($lab);
-        else
-            echo "Bad Request  boy!!";
-        ?>
+    <div id="lab-content">
+        <?php showContent($lab) ?>
     </div>
 </div>
 </body>
