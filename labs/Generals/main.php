@@ -1,17 +1,56 @@
-Este menu muestra a la izquierda todos los archivos que estan en la
-carpeta por PHP files. Y al darles click se muestra en include aqui
-cambiando los titulos pero incluyendo solo el archivo para que todo el
-Lab siga funcionando con las mismas CSS y HTML. Algo asi se desea en Jquery Lab.
 
-<p>
-    Podemos dar atajos pa copypastear cosas como:
-    <ul>
-        <li>HTML CSS Resets</li>
-        <li>Standards Heads para empezar un HTML</li>
-        <li>Links de Utilidad</li>
-        <li>Ayuda para agregar acciones y FAQ de errores comunes</li>
-    </ul>
+<div id="main-page">
+    <p>
+        La idea de este laboratorio es intentar, agrupar y mejorar cada accion que consigamos
+        en los foros o en buenos links sobre HTML5 - CSS3. Es importante porque nos ahorraremos
+        cosas como crear un HTML desde cero con cabezales e inclusion de librerias bla bla bla...
+    </p>
+    <p>
+        <b>Aqui es sencillo</b>
+        <ol>
+            <li>Creamos el archivo nuevo "newFileExample.php" desde nuestro IDE</li>
+            <li>Creamos su entrada en el archivo labs/menu.php (facil, tipo array)</li>
+            <li>Listo! A probar y cambiar</li>
+        </ol>
+    </p>
 
-    <a href="http://dizyne.net/30-beautiful-html5-css3-drop-menus" target="_blank">Good Menus</a>
+    <p>
+        La idea es que esto este en Github y cada aporte y avance va alimentando un master
+        de funciones reutilizables y modificables, todas en un mismo URL-Proyecto.
+    </p>
+    <p>
+        Tengan en mente que este proyecto no tiene ninguna libreria JS (javascript) incluida,
+        ya que la idea es lograr la mayor cantidad de animaciones y light movements desde CSS3
+        ya que es mas rapido y es el nuevo standard. Let's Jquery do the dirty job!
+    </p>
+    <p>
+        Tengo mas de 5 anios queriendo hacer algo asi! Esto es solo el inicio, pronto vendran
+        <ul>
+            <li>HTML CSS Resets Resources</li>
+            <li>Standards Heads para empezar un HTML</li>
+            <li>Links de Utilidad</li>
+            <li>Este mismo lab para Jquery, PHP, Mysql, CakePHP, Bootstrap... etc</li>
+            <li>Ayuda para agregar acciones y FAQ de errores comunes</li>
+        </ul>
+    </p>
+</div>
+<style>
+#main-page{
+    width: 500px;
 
-</p>
+}
+#main-page p{
+    text-align: justify;
+    margin: 5px 0 20px 10px;
+    line-height: 140%;
+}
+#main-page ul{
+    margin-left: 10px;
+    padding: 3px 0 0 40px;
+    list-style: disc;
+}
+#main-page ol {
+    margin-left: 10px;
+    padding: 3px 0 0 40px;
+}
+</style>
