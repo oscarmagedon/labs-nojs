@@ -24,9 +24,10 @@
         ya que es mas rapido y es el nuevo standard. Let's Jquery do the dirty job!
     </p>
     <p>
-        Tengo mas de 5 anios queriendo hacer algo asi! Esto es solo el inicio, pronto vendran
+        Tengo mas de 5 anios queriendo hacer algo asi! Esto es solo el inicio, pronto vendran:
         <ul>
             <li>HTML CSS Resets Resources</li>
+            <li>Copy pastes utiles automaticos para crear nuevos proyectos</li>
             <li>Standards Heads para empezar un HTML</li>
             <li>Links de Utilidad</li>
             <li>Este mismo lab para Jquery, PHP, Mysql, CakePHP, Bootstrap... etc</li>
