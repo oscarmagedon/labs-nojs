@@ -6,15 +6,6 @@
         cosas como crear un HTML desde cero con cabezales e inclusion de librerias bla bla bla...
     </p>
     <p>
-        <b>Aqui es sencillo</b>
-        <ol>
-            <li>Creamos el archivo nuevo "newFileExample.php" desde nuestro IDE</li>
-            <li>Creamos su entrada en el archivo labs/menu.php (facil, tipo array)</li>
-            <li>Listo! A probar y cambiar</li>
-        </ol>
-    </p>
-
-    <p>
         La idea es que esto este en Github y cada aporte y avance va alimentando un master
         de funciones reutilizables y modificables, todas en un mismo URL-Proyecto.
     </p>

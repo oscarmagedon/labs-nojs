@@ -5,17 +5,27 @@ $menuActions = array(
                 'title' => 'Main-Page',
                 'file'  => 'main'
             )
+            ,
+            array(
+                'title' => 'Instructions',
+                'file'  => 'instructions'
+            )
+            ,
+            array(
+                'title' => 'Future-Features',
+                'file'  => 'futureFeatures'
+            )
     )
     ,
     'Animations'      => array(
             array(
-                'title' => 'First-Animation',
-                'file'  => 'firstAnimation'
+                'title' => 'Change-Color',
+                'file'  => 'changeColor'
             )
             ,
             array(
-                'title' => 'Other-Animation',
-                'file'  => 'otherAnimation'
+                'title' => 'Change-Color-On-Mouse-Over',
+                'file'  => 'colorMouseOver'
             )
     )
     ,
@@ -32,7 +42,7 @@ $menuActions = array(
 
     )
     ,
-    'Category'       => array(
+    'Border'         => array(
             array(
                 'title' => 'Sub Example',
                 'file'  => 'subExample'
@@ -43,6 +53,53 @@ $menuActions = array(
                 'file'  => 'subExampleTwo'
             )
     )
-
+    ,
+    'Background'    => array(
+        array(
+            'title' => 'Sub Example',
+            'file'  => 'subExample'
+        )
+        ,
+        array(
+            'title' => 'Sub Example Two',
+            'file'  => 'subExampleTwo'
+        )
+    )
+    ,
+    'Gradient'      => array(
+        array(
+            'title' => 'Sub Example',
+            'file'  => 'subExample'
+        )
+        ,
+        array(
+            'title' => 'Sub Example Two',
+            'file'  => 'subExampleTwo'
+        )
+    )
+    ,
+    'Transforms'      => array(
+        array(
+            'title' => 'Sub Example',
+            'file'  => 'subExample'
+        )
+        ,
+        array(
+            'title' => 'Sub Example Two',
+            'file'  => 'subExampleTwo'
+        )
+    )
+    ,
+    'Fonts'      => array(
+        array(
+            'title' => 'Sub Example',
+            'file'  => 'subExample'
+        )
+        ,
+        array(
+            'title' => 'Sub Example Two',
+            'file'  => 'subExampleTwo'
+        )
+    )
 );
 

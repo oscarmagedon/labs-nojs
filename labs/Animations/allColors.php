@@ -52,14 +52,6 @@
     100% {background:green;}
 }
 
-
-
-
-
-
-
-
-
 </style>
 <h2>Animation CSS3</h2>
 <a href="http://www.w3schools.com/css/css3_animations.asp" target="_blank">Link on W3C</a>
