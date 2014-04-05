@@ -78,22 +78,27 @@
         margin: 2px 0 5px 5px;
     }
 
-/* COLORS PART */
+/* GENERALS CLASSES */
 
-/*
-#lab-wrapper{
-    background-color : #345;
+.first-title{
+    font-size: 140%;
+    padding: 5px 0 10px 5px;
 }
-#lab-header{
-    background-color : #585;
+.second-title{
+    font-size: 125%;
+    padding: 10px 0 4px 15px;
+    font-style: italic;
 }
-#lab-labtitle{
-    background-color : #45D;
+.text-wrapper{
+    text-align: justify;
+    margin: 5px 0 20px 10px;
+    line-height: 140%;
 }
-#lab-menu{
-    background-color : #ab3;
+.number-list {
+    margin: 10px 0 10px 10px;
+    padding: 3px 0 0 40px;
 }
-#lab-content{
-    background-color : #4da;
+.normal-list {
+    margin: 10px 0 10px 10px;
+    padding: 3px 0 0 40px;
 }
-*/
