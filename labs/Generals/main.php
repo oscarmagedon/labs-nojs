@@ -24,5 +24,4 @@
         and high quality code.
     </p>
 
-    <h3 class="second-title">That's what she said...</h3>
 </div>
