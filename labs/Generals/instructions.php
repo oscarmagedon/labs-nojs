@@ -1,6 +1,6 @@
 <div style="width: 500px;">
 
-    <h2 class="first-title">Instructions: </h2>
+    <h2 class="first-title">Instructions</h2>
 
     <h3 class="second-title">It's easy:</h3>
 
@@ -24,8 +24,9 @@
         we can rewrite their attributes on the fly.
     </p>
 
+    <h2 class="second-title">Classes</h2>
+
     <ul class="normal-list">
-        CLASSSES:
         <li><b>text-wrapper (p):</b> To use text paragraphs to explain</li>
         <li><b>first-title (h3):</b> To big titles</li>
         <li><b>second-title (h2):</b> To medium titles</li>
@@ -33,4 +34,8 @@
         <li><b>normal-list (ol): </b> Unordered lists </li>
     </ul>
 
+    <p class="text-wrapper">
+        If you have any doubt about the usability, please note that all these general
+        classes are well used on the labs on the <b>Generals</b> section.
+    </p>
 </div>

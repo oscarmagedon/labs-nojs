@@ -12,6 +12,11 @@ $menuActions = array(
             )
             ,
             array(
+                'title' => 'Format-Of-The-Lab',
+                'file'  => 'format'
+            )
+            ,
+            array(
                 'title' => 'Future-Features',
                 'file'  => 'futureFeatures'
             )
@@ -39,13 +44,17 @@ $menuActions = array(
                 'title' => 'Three-Levels-Basic',
                 'file'  => 'threeLevelsBasic'
             )
-
+            ,
+            array(
+                'title' => 'Other-Menu-Test',
+                'file'  => 'otherMenuTest'
+            )
     )
     ,
-    'Border'         => array(
+    'Borders'         => array(
             array(
-                'title' => 'Sub Example',
-                'file'  => 'subExample'
+                'title' => 'Rounded-Corners',
+                'file'  => 'roundedCorners'
             )
             ,
             array(

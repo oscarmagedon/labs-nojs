@@ -1,48 +1,28 @@
+<div>
 
-<div id="main-page">
-    <p>
-        La idea de este laboratorio es intentar, agrupar y mejorar cada accion que consigamos
-        en los foros o en buenos links sobre HTML5 - CSS3. Es importante porque nos ahorraremos
-        cosas como crear un HTML desde cero con cabezales e inclusion de librerias bla bla bla...
+    <h2 class="first-title">Let's do it!</h2>
+
+    <p class="text-wrapper">
+        The main idea is create, try and improve every funny and important function or
+        action that we find on internet on blogs or annything. We have our structure and
+        own groups to create new labs and make this project grow.
     </p>
-    <p>
-        La idea es que esto este en Github y cada aporte y avance va alimentando un master
-        de funciones reutilizables y modificables, todas en un mismo URL-Proyecto.
+
+    <h3 class="second-title">Github: share, create and collaborate on projects...</h3>
+
+    <p class="text-wrapper">
+        Once we know how easy is Github to clone a repository, collaborate and share
+        projects, we're gonna be able to start to develop many things in a record time
+        re-using our own library well organized.
     </p>
-    <p>
-        Tengan en mente que este proyecto no tiene ninguna libreria JS (javascript) incluida,
-        ya que la idea es lograr la mayor cantidad de animaciones y light movements desde CSS3
-        ya que es mas rapido y es el nuevo standard. Let's Jquery do the dirty job!
+
+    <h3 class="second-title">NO-Javascript b***h!</h3>
+
+    <p class="text-wrapper">
+        Let's Jquery do the dirty job! We really want to knnow hor far CSS3 can help
+        us to commit animations and nice appereances, so we can do projects very light
+        and high quality code.
     </p>
-    <p>
-        Tengo mas de 5 anios queriendo hacer algo asi! Esto es solo el inicio, pronto vendran:
-        <ul>
-            <li>HTML CSS Resets Resources</li>
-            <li>Copy pastes utiles automaticos para crear nuevos proyectos</li>
-            <li>Standards Heads para empezar un HTML</li>
-            <li>Links de Utilidad</li>
-            <li>Este mismo lab para Jquery, PHP, Mysql, CakePHP, Bootstrap... etc</li>
-            <li>Ayuda para agregar acciones y FAQ de errores comunes</li>
-        </ul>
-    </p>
+
+    <h3 class="second-title">That's what she said...</h3>
 </div>
-<style>
-#main-page{
-    width: 500px;
-
-}
-#main-page p{
-    text-align: justify;
-    margin: 5px 0 20px 10px;
-    line-height: 140%;
-}
-#main-page ul{
-    margin-left: 10px;
-    padding: 3px 0 0 40px;
-    list-style: disc;
-}
-#main-page ol {
-    margin-left: 10px;
-    padding: 3px 0 0 40px;
-}
-</style>

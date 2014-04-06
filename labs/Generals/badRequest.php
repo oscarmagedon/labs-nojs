@@ -1,16 +1,15 @@
 <?php
 $parts = explode("/",$lab);
 ?>
-<div id='bad-request'>
-    <div class="title">Bad Request.</div>
-    <p>
+<div id="bad-request">
+    <h2 class="first-title">Bad Request.</h2>
+    <p class="text-wrapper">
         The route: <br />
         <b><?= $lab ?></b> <br />
         Is not valid!<br />
         <b>Verify next options: </b>
     </p>
-    <p>
-        <ul>
+        <ul class="normal-list">
             <li>
                 The folder <b><?= $parts[0]."/".$parts[1] ?></b> actually exists.
             </li>
@@ -27,16 +26,3 @@ $parts = explode("/",$lab);
         </ul>
     </p>
 </div>
-<style>
-#bad-request ul {
-    padding: 5px 0 5px 35px;
-    list-style: circle;
-}
-    #bad-request ul li{
-        padding: 5px 0 5px 5px;
-    }
-#bad-request p{
-    margin: 5px 0 20px 10px;
-    line-height: 140%;
-}
-</style>

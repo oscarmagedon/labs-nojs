@@ -1,10 +1,13 @@
 *{
     font-family: arial, helvetica, sans-serif;
 }
+body{
+    background-color: #444;
+}
 #lab-wrapper{
     padding: 5px;
     height: 800px;
-    width: 1200px;
+    width: 1000px;
     border: 1px solid #AAA;
     border-radius: 5px;
     margin: 5px;
@@ -25,6 +28,7 @@
         font-size: 85%;
     }
 #lab-menu{
+    background-color: #CCC;
     width : 160px;
     height : 740px;
     float : left;
@@ -56,13 +60,14 @@
 
 
 #lab-content{
-    width : 1020px;
+    width : 820px;
     height : 730px;
     border : 1px solid #AAA;
     padding : 5px;
     float : left;
     clear : none;
     border-radius: 5px;
+    background-color: #999;
 }
 
 #bad-request{
@@ -71,27 +76,26 @@
     border-radius: 5px;
     padding: 3px;
 }
-    #bad-request .title{
+    #bad-request .first-title{
         color: #900;
-        font-size: 120%;
-        font-weight: bold;
-        margin: 2px 0 5px 5px;
     }
 
 /* GENERALS CLASSES */
 
 .first-title{
     font-size: 140%;
-    padding: 5px 0 10px 5px;
+    padding: 5px 0 15px 5px;
+    text-transform: uppercase;
+    color: #009;
 }
 .second-title{
     font-size: 125%;
-    padding: 10px 0 4px 15px;
+    padding: 5px 0 5px 15px;
     font-style: italic;
 }
 .text-wrapper{
     text-align: justify;
-    margin: 5px 0 20px 10px;
+    margin: 5px 0 10px 10px;
     line-height: 140%;
 }
 .number-list {
@@ -101,4 +105,5 @@
 .normal-list {
     margin: 10px 0 10px 10px;
     padding: 3px 0 0 40px;
+    list-style: disc;
 }

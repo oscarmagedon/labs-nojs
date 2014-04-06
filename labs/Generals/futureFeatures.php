@@ -1,28 +1,20 @@
-<div id="future-features">
-    <p>
+<div>
+    <h2 class="first-title">Coming soon...</h2>
+
+    <p class="text-wrapper">
         In this module, every week we're going to have new improvements, for example:
     </p>
 
-    <ul>
+    <ul class="normal-list">
         <li>Automatic lab file adding.</li>
         <li>Automatic menu generator by created files.</li>
         <li>Duplicate lab</li>
         <li>Simulation of database responses to test useful functions.</li>
+        <li>HTML CSS Resets Resources</li>
+        <li>Copy pastes utiles automaticos para crear nuevos proyectos</li>
+        <li>Standards Heads para empezar un HTML</li>
+        <li>Links de Utilidad</li>
+        <li>Este mismo lab para Jquery, PHP, Mysql, CakePHP, Bootstrap... etc</li>
+        <li>Ayuda para agregar acciones y FAQ de errores comunes</li>
     </ul>
 </div>
-<style>
-    #future-features{
-        width: 500px;
-
-    }
-    #future-features p{
-        text-align: justify;
-        margin: 5px 0 20px 10px;
-        line-height: 140%;
-    }
-    #future-features ul{
-        margin: 10px 0 0 10px;
-        padding: 3px 0 0 40px;
-        list-style: disc;
-    }
-</style>
