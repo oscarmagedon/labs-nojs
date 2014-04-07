@@ -102,8 +102,14 @@ body{
     margin: 10px 0 10px 10px;
     padding: 3px 0 0 40px;
 }
+.number-list li{
+    margin: 2px 0 4px 2px;
+}
 .normal-list {
     margin: 10px 0 10px 10px;
     padding: 3px 0 0 40px;
     list-style: disc;
+}
+.normal-list li{
+    margin: 2px 0 4px 2px;
 }
