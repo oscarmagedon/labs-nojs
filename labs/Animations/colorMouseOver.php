@@ -34,7 +34,7 @@
 </style>
 <h2 class="first-title">Changing 4 colors on mouse over</h2>
 <p class="text-wrapper">
-    Here, we're gonna give the div 4 colors in 2 secs each. Then it comes back to
+    Here, we're gonna give the div 4 colors in 2 secs each on Mouse Over. Then it comes back to
     red like the beginning.
 </p>
 

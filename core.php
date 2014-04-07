@@ -20,7 +20,12 @@ function showMenu ($menu)
     foreach ($menu as $title => $links){
         echo "<li>".noDash($title)."<ul>";
         foreach($links as $menu ){
-            doActionLink($title."/".$menu['file'],$menu['title']);
+            if($_GET['title'] == $menu['title']){
+                doActiveLink($menu['title']);
+            }else{
+                doActionLink($title."/".$menu['file'],$menu['title']);
+            }
+
         }
         echo "</ul></li>";
     }
@@ -36,6 +41,12 @@ function noDash($str)
 function doActionLink($file,$title)
 {
     echo "<li><a href='index.php?dir=labs/$file&title=$title'>".noDash($title)."</a></li>";
+}
+
+//Writes a black letters underline
+function doActiveLink($title)
+{
+    echo "<li><span class='link-active'>".noDash($title)."</span></li>";
 }
 
 //Shows the lab on the content part

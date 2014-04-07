@@ -29,8 +29,18 @@ $menuActions = array(
             )
             ,
             array(
+                'title' => 'Animation-Elements',
+                'file'  => 'animationElements'
+            )
+            ,
+            array(
                 'title' => 'Change-Color-On-Mouse-Over',
                 'file'  => 'colorMouseOver'
+            )
+            ,
+            array(
+                'title' => 'Cyclic-Animation',
+                'file'  => 'cyclicAnimation'
             )
     )
     ,
