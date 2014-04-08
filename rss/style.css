@@ -33,8 +33,8 @@ body{
     height : 740px;
     float : left;
     clear : none;
-    margin-right : 5px;
-    font-size: 95%;
+    margin-right : 2px;
+    font-size: 90%;
 }
     #lab-menu ul{
         padding: 0 0 5px 10px;
@@ -45,7 +45,7 @@ body{
             font-weight: bold;
             color: #333;
             list-style-type: none;
-            padding-top: 5px;
+            padding-top: 2px;
         }
         #lab-menu ul li a , #lab-menu ul li a:visited {
             font-weight: normal;

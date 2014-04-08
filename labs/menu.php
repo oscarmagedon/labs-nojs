@@ -42,6 +42,11 @@ $menuActions = array(
                 'title' => 'Cyclic-Animation',
                 'file'  => 'cyclicAnimation'
             )
+            ,
+            array(
+                'title' => 'Cyclic-Animation-Easy',
+                'file'  => 'cyclicAnimEasy'
+            )
     )
     ,
     'Drop-Down-Menus' => array(

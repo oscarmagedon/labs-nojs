@@ -105,4 +105,8 @@
             <a href="http://www.w3schools.com/cssref/css3_pr_animation-direction.asp" target="_blank">Source</a>
         </li>
     </ul>
+    <p>
+        We have <a href="index.php?dir=labs/Animations/cyclicAnimEasy&title=Cyclic-Animation-Easy">this example</a> which is
+        very easy and compact.
+    </p>
 </div>
