@@ -20,7 +20,7 @@ function showMenu ($menu)
     foreach ($menu as $title => $links){
         echo "<li>".noDash($title)."<ul>";
         foreach($links as $menu ){
-            if($_GET['title'] == $menu['title']){
+            if(!empty ($_GET) && $_GET['title'] == $menu['title']){
                 doActiveLink($menu['title']);
             }else{
                 doActionLink($title."/".$menu['file'],$menu['title']);
