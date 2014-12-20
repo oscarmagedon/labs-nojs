@@ -64,8 +64,13 @@ $menuActions = array(
                 'title' => 'Other-Menu-Test',
                 'file'  => 'otherMenuTest'
             )
-    )
-    ,
+			,
+			array(
+                'title' => 'Menu-Total',
+                'file'  => 'menuTotal'
+            )
+	)
+	,
     'Borders'         => array(
             array(
                 'title' => 'Rounded-Corners',
@@ -78,15 +83,15 @@ $menuActions = array(
             )
     )
     ,
-    'Background'    => array(
+    'Buttons'    => array(
         array(
-            'title' => 'Sub Example',
-            'file'  => 'subExample'
+            'title' => 'First-Model',
+            'file'  => 'firstModel'
         )
         ,
         array(
-            'title' => 'Sub Example Two',
-            'file'  => 'subExampleTwo'
+            'title' => 'Second-Model',
+            'file'  => 'secondModel'
         )
     )
     ,
